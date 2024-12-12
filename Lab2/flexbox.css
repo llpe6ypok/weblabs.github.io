@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/*---------------------------------------------------FIRST BLOCK AT THE TOP---------------------------------------------------*/
+
+/*--------------------FOR THE FIRST DIV---------------------*/
+.start-box {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+
+/*---------------------NAVIGATION LIST---------------------*/
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    color: white;
+    font-size: 2em;
+    padding: 0 15px 0;
+}
+
+.start-box ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: inherit;
+}
+/*-------------------------LOGO IMG-------------------------*/
+.logo {
+    height: 100%;
+}
+
+/*--------------------LITTLE H1 TRIANGLE--------------------*/
+.start-box h1 {
+    color: white;
+    line-height: 100%;
+    margin: 0;
+    align-self: center;
+}
+
+/*---------------------------------------------------LAST BLOCK AT THE BOTTOM---------------------------------------------------*/
+
+.end-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    min-height: 150px;
+    width: 100%;
+    border-top: 2px solid red;
+}
+
+.end-box p{
+    flex-grow: 5;
+}
+
+.end-box div{
+    flex-grow: 2;
+}
+
+.end-box h1{
+    flex-grow: 1;
+    color: gold;
+    -webkit-text-stroke: 1px rgb(196, 147, 25);
+}
+
+
+
+/*------------------------------------------------THAT'S EVERYTHING THAT IS IN THE MIDDLE------------------------------------------------*/
+
+
+.middle-box {
+    display: flex;
+    flex-direction: row;
+    min-height: 70svh;
+    width: 100%;
+}
+
+.main-left-box{
+    display: flex;
+    flex-direction: column;
+    min-height: 70svh;
+    width: 80%;
+    border-top: 2px solid red;
+}
+
+.top-box{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 5;
+    min-height: 70svh;
+    border-bottom: 2px solid red;
+}
+
+.center-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.second-box {
+    display: flex;
+    justify-items: start;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    background-color: rgb(8, 9, 37);
+    overflow: hidden;
+    border-right: 2px solid red;
+}
+
+.character-pic-box{
+    width: 100%;
+    border-bottom: 2px solid red;
+}
+
+.character-pic{
+    width: 100%;
+    object-fit: cover;
+}
+
+.second-box p{
+    color: white;
+    font-size: 150%;
+}
+
+.third-box {
+    flex-grow: 1;
+    background-color: rgb(0, 0, 0);
+    text-align: justify;
+}
+
+.third-box p{
+    color: white;
+    font-size: 150%;
+}
+
+.fourth-box {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    width: 20%;
+    background-color: rgb(8, 9, 37);
+    border-left: 2px solid red;
+    color: white;
+}
+
+.fourth-box p, .fourth-box h4{
+    font-size: 150%;
+}
+
+.equipment{
+    flex-grow: 1;
+    width: auto;
+    padding: 15px;;
+    border-top: 2px solid red;
+}
+
+.equipment-pic{
+    width: 100%;
+}
+
+.fifth-box {
+    flex-grow: 3;
+    background-color: rgb(0, 0, 0);
+    border-top: 2px solid red;
+    text-align: justify;
+}
+
+.fifth-box p{
+    color: white;
+    font-size: 100%;
+}
+
+.sixth-box{
+    flex-grow: 1;
+    min-height: 50px;
+    background-color: rgb(0, 0, 0);
+    text-align: justify;
+}
+
+.sixth-box p{
+    color: white;
+    font-size: 100%;
+}
+
+p{
+    margin: 0;
+    padding: 10px;
+}
+

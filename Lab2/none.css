@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+
+.box p{
+    margin: 0;
+    padding: 10px;
+}
+
+/*--------------------------FIRST BOX--------------------------*/
+
+.first-box {
+    text-align: center;
+    line-height: 100px;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+.nav-list {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: middle;
+}
+
+.nav-list li {
+    display: inline;
+    margin: 0;
+    padding: 0 15px 0;
+    font-size: 2em;
+}
+
+.first-box a{
+    text-decoration: none;
+    color: white;
+    width: max-content;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.first-box h1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 36px;
+    line-height: normal;
+}
+
+/*--------------------------SEVENTH BOX--------------------------*/
+
+.seventh-box{
+    text-align: start;
+    line-height: 100%;
+    min-height: 200px;
+    border-top: 2px solid red;
+    position: relative;
+    overflow: hidden;
+}
+
+.seventh-box h1{
+    vertical-align: top;
+    display: inline-block;
+    width: 15%;
+    color: gold;
+    -webkit-text-stroke: 1px rgb(196, 147, 25);
+}
+.seventh-box > p{
+    vertical-align: top;
+    display: inline-block;
+    width: 60%;
+    color: white;
+}
+.end-info {
+    vertical-align: top;
+    display: inline-block;
+    width: 20%;
+}
+
+/*------------------------------------------------THAT'S EVERYTHING THAT IS IN THE MIDDLE------------------------------------------------*/
+
+
+
+.middle-box {
+    width: 100%;
+    height: 80dvh;
+}
+  
+
+.main-left-box {
+    width: 80%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+    border-top: 2px solid red;
+    
+}
+  
+.fourth-box {
+    width: 20%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+    background-color: rgb(8, 9, 37);
+    border-left: 2px solid red;
+    overflow: hidden;
+}
+  
+.fourth-box p, .fourth-box h4{
+    color: white;
+    font-size: 150%;
+}
+
+.equipment{
+    flex-grow: 1;
+    width: auto;
+    padding: 15px;;
+    border-top: 2px solid red;
+}
+
+.equipment-pic{
+    width: 100%;
+}
+
+.top-in-main-left-box {
+    height: 80%;
+}
+  
+.second-box {
+    width: 25%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+    background-color: rgb(8, 9, 37);
+    border-right: 2px solid red;
+    justify-items: center;
+}
+
+.second-box p{
+    color: white;
+    font-size: 150%;
+}
+
+.character-pic-box .character-pic{
+    width: 100%;
+}
+
+.character-pic-box {
+    border-bottom: 2px solid red;
+}
+
+.center-in-top-box {
+    width: 75%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.third-box {
+    height: 20%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.third-box p{
+    color: white;
+    font-size: 150%;
+}
+  
+.fifth-box {
+    height: 80%;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 2px solid red;
+}
+
+.sixth-box {
+    height: 20%;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 2px solid red;
+}
